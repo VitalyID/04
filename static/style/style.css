@@ -1326,25 +1326,33 @@ main section {
 }
 
 .main__whatForOurCiurse-body {
-    position: relative;
-}
-
-/* .main__whatForOurCiurse-container {
+    /* position: relative; */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
-
-.main__whatForOurCiurse-container ul {
-    width: 40%;
-} */
+.main__whatForOurCiurse-body ul {
+    width: 70%;
+}
 
 .main__whatForOurCiurse-img {
- position: absolute;
+ /* position: absolute;
  right: -20vw;
- /* right: calc(-53% - 0.01240vw); */
- top: -13%
+ top: -13% */
 
+ /* display: flex;
+ justify-content: center;
+ align-items: center; */
+ width: 30%;
+ position: relative;
+}
+
+.main__whatForOurCiurse-img svg {
+    max-width: 250%;
+    /* width: 100%; */
+    /* height: 300%; */
+    position: absolute;
+    top: -7vw;
+    right: -12vw;
 }
 
 .main__whatForOurCiurse h2 {
@@ -1369,4 +1377,8 @@ main section {
 .main__whatForOurCiurse li span {
     font-size: 16px;
     color: #FFFFFF;
+}
+
+.mobileSVG {
+    display: none;
 }
